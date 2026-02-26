@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'DrukWideCyr';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/Druk-Text-Wide-Cyr-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'DrukWideCyr';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/Druk-Text-Wide-Cyr-Heavy.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/OpenSans-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/OpenSans-Bold.woff) format("woff");
+}

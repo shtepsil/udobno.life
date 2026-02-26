@@ -1,0 +1,88 @@
+.loader {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.footer-bottom > a {
+    display: block;
+    margin-bottom: -8px;
+    padding: 5px;
+    cursor: pointer;
+    max-width: max-content;
+    transition: background 0.3s;
+}
+
+.footer-bottom > a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+/*===================================================
+             Странице 404 error.php
+===================================================*/
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    min-height: 800px;
+    background: linear-gradient(90deg, #7783fe 0%, #19ed9d 100%);
+    color: #fff;
+}
+
+.error-code {
+    font-size: 120px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.error-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.error-message {
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.btn-home:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 600px) {
+    .error-code {
+        font-size: 80px;
+    }
+
+    .error-title {
+        font-size: 28px;
+    }
+
+    .error-message {
+        font-size: 16px;
+    }
+}
