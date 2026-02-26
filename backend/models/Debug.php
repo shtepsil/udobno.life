@@ -27,13 +27,13 @@ class Debug extends ActiveRecord
 
     public static function debugFrontend()
     {
-        $result = 1;
+        $result = 0;
         return $result;
     }
 
     public static function debugBackend()
     {
-        $result = false;
+        $result = 0;
         return $result;
     }
 
