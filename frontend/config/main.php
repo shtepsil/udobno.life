@@ -45,9 +45,14 @@ return [
             'showScriptName' => false,
             'suffix' => '.html',
             'rules' => [
-                '/' => 'site/index',
-                '<action>' => 'site/<action>',
-                '<controller><action>' => '<controller><action>',
+                '' => 'site/index', // Главная страница
+
+                // Универсальный экшн в SiteController
+                // Любые URL вида http://site/delete_udobno.html или http://site/delete-moy-sam.html
+                '<action:[\w\-]+>' => 'site/dispatch-action',
+
+                // Стандартные контроллер/экшн, если нужно
+                '<controller:[\w\-]+>/<action:[\w\-]+>' => '<controller>/<action>',
             ],
         ],
         'assetManager' => [

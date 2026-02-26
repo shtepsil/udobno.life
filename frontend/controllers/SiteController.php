@@ -96,4 +96,25 @@ class SiteController extends MainController
         return $this->render('white-label');
     }
 
+    public function actionDeleteUdobno()
+    {
+        $this->layout = 'delete-layout';
+        // Ваш код
+        return $this->render('delete_udobno');
+    }
+
+    public function actionDeleteMoySam()
+    {
+        $this->layout = 'delete-layout';
+        // Ваш код
+        return $this->render('delete_moy-sam');
+    }
+
+    public function actionDeleteBkfPay()
+    {
+        $this->layout = 'delete-layout';
+        // Ваш код
+        return $this->render('delete_bkf-pay');
+    }
+
 }//Class
