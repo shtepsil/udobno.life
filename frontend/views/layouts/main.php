@@ -174,7 +174,8 @@ AppAsset::register($this);
     <div class="modal-dialog">
         <div class="modal-login">
 
-            <a class="modal-login-btn" target="_blank" href="http://mobtech.fvds.ru/">Транзакции онлайн</a>
+            <?php //<a class="modal-login-btn" target="_blank" href="http://mobtech.fvds.ru/">Транзакции онлайн</a> ?>
+            <a class="modal-login-btn" target="_blank" href="https://api.udobno.life/wash/login">Транзакции онлайн</a>
             <a class="modal-login-btn" target="_blank" href="http://iotmt78.ru/login">Акции, промокоды, бонусы</a>
             <a class="modal-login-btn" target="_blank" href="https://flexoil.ru:8443/login">Корпоратив</a>
 
